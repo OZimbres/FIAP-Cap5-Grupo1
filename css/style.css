@@ -1,7 +1,62 @@
-iframe{
-    width:100%;
-    height: 300px;
+#container {
+    max-width: 980px;
+    margin: 40px auto;
+    position: relative;
+}
+
+#logo {
+    background-image: url(../img/logo.fw.png);
+    width: 194px;
+    height: 146px;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    z-index: 1;
+}
+
+#menuTop {
+    width: 100%;
+    background-color: #1b8e99;
+    position: relative;
+    z-index: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 14px;
+    text-align: right;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Arial;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menuBottom {
+    width: 100%;
+    background-color: #660000;
+    margin: 0;
+}
+
+#listaBottom {
+    text-align: left;
+}
+
+#banner {
     background-image: url(../img/banner.fw.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px; /* Altura fixa do banner */
     background-attachment: fixed;
-    background-size: 980px 352px;
+    margin: 0;
+    padding: 0;
 }
