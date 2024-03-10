@@ -3,7 +3,6 @@
     margin: 40px auto;
     position: relative;
 }
-
 #logo {
     background-image: url(../img/logo.fw.png);
     width: 194px;
@@ -13,24 +12,25 @@
     left: 20px;
     z-index: 1;
 }
-
 #menuTop {
     width: 100%;
     background-color: #1b8e99;
     position: relative;
     z-index: 0;
 }
-
 ul {
     margin: 0;
-    padding: 14px;
+    padding: 10px;
+}
+#listaTop {
     text-align: right;
 }
-
+#listaBottom {
+    text-align: left;
+}
 ul li {
     display: inline;
 }
-
 ul li a {
     color: white;
     padding: 5px;
@@ -38,25 +38,34 @@ ul li a {
     font-family: Arial;
     text-transform: uppercase;
     text-decoration: none;
+    transition: color 0.15s, background-color 0.15s, padding 0.15s;
 }
-
+#menuTop ul li a:hover {
+    background-color: #92c9ce;
+    padding: 20px;
+}
+#menuBottom ul li a:hover {
+    background-color: white;
+    color: #660000;
+    padding: 20px;
+}
+/*
+.break-text{
+    word-break: break-word;    
+    /* nao estou conseguindo inserir quebra de texto nesses dois itens dos menus
+} 
+*/
 #menuBottom {
     width: 100%;
     background-color: #660000;
     margin: 0;
 }
-
-#listaBottom {
-    text-align: left;
-}
-
 #banner {
     background-image: url(../img/banner.fw.png);
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     width: 100%;
-    height: 300px; /* Altura fixa do banner */
-    background-attachment: fixed;
+    height: 340px; 
     margin: 0;
     padding: 0;
 }
