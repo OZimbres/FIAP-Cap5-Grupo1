@@ -42,8 +42,9 @@ body {
     width: 300px;
     height: 300px;
     border: 1px solid;
-    border-bottom-width: 5px;
+    border-bottom-width: 8px;
     font-family: tahoma; /*todos os textos dos cards de serviços usam essa fonte*/
+    text-decoration: none;
 }
 
 .card_servicos h3 {
