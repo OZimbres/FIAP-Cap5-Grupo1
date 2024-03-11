@@ -1,1 +1,71 @@
 /*Estilos do cap 5*/
+
+:root {
+    
+}
+
+body {
+    width: 980px;
+}
+
+
+#servicos_txt_logo {
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+#servicos_txt_logo h2{
+    font-size: 18px;
+    font-family: Arial;
+    color: #1c8e99;
+    border-bottom: 2px solid; /*linha sob o texto serviços*/
+    padding-bottom: 10px;
+
+    flex-grow: 100; /*faz o elemento ocupar todo espaço que ele tem disponivel*/
+}
+
+#servicos_txt_logo #img_droneB {
+    width: 125px;
+    height: 77px;  /*garante seu espaço, regulando o espaço de serviços*/
+}
+
+
+.container_servicos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_servicos {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-bottom-width: 8px;
+    font-family: tahoma; /*todos os textos dos cards de serviços usam essa fonte*/
+    text-decoration: none;
+}
+
+.card_servicos h3 {
+    font-size: 17px;
+    margin-top: 0;
+    padding: 0px 10px; 
+}
+
+.card_servicos p {
+    font-size: 13px;
+    padding: 0px 10px; 
+}
+
+.card_vermelho {
+    color: #660000;
+    border-color: #660000;
+}
+
+.card_azul {
+    color: #1b8d99;
+    border-color: #1b8d99;
+}
