@@ -1,4 +1,4 @@
-/*Estilos do cap 5*/
+/* Estilos do cap 5*/
 /* Reset de estilos padrão */
 * {
     padding: 0;
@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-  
 /* Estilos para o body e HTML */
 html{
     height: 100%;
@@ -24,114 +23,7 @@ body {
     transform: translateY(30px);
 }
 
-#servicos_txt_logo {
-    height: 77px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-
-#servicos_txt_logo h2{
-    font-size: 18px;
-    font-family: Arial;
-    color: #1c8e99;
-    border-bottom: 2px solid; /*linha sob o texto serviços*/
-    padding-bottom: 10px;
-
-    flex-grow: 100; /*faz o elemento ocupar todo espaço que ele tem disponivel*/
-}
-
-#img_droneB {
-    width: 125px;
-    height: 77px;  /*garante seu espaço, regulando o espaço de serviços*/
-}
-
-
-.container_servicos {
-    display: flex;
-    justify-content: space-between;
-}
-
-.card_servicos {
-    width: 300px;
-    height: 300px;
-    border: 1px solid;
-    border-bottom-width: 8px;
-    font-family: tahoma; /*todos os textos dos cards de serviços usam essa fonte*/
-    text-decoration: none;
-}
-
-.card_servicos h3 {
-    font-size: 17px;
-    margin-top: 0;
-    padding: 0px 10px; 
-}
-
-.card_servicos p {
-    font-size: 13px;
-    padding: 0px 10px; 
-}
-
-.card_vermelho {
-    color: #660000;
-    border-color: #660000;
-}
-
-.card_azul {
-    color: #1b8d99;
-    border-color: #1b8d99;
-}
-
-  
-/* Estilos para o footer */
-footer {
-    width: 980px;
-    display: flex;
-    flex-direction: column;
-}
-  
-/* Estilos para os parágrafos dentro do footer */
-footer p {
-    font-family: tahoma;
-    color: white;
-    font-size: 14px;
-}
-  
-/* Estilos para o conteúdo dentro do footer */
-.conteudoFooter {
-    display: flex;
-    padding-left: 30px;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    height: 96px;
-    background-color: #1b8e99;
-}
-  
-/* Estilos para as imagens de drones dentro do footer */
-.imagemDrones {
-    display: flex;
-    gap: 185px;
-}
-  
-/* Estilos para a imagem do Prof. Bortola dentro do footer */
-.imagemProf {
-    margin-bottom: 60px;
-    z-index: 1;
-}
-  
-/* Estilos para o detalheFinal dentro do footer */
-.detalheFinal {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    height: 26px;
-    padding-right: 80px;
-    background-color: #660000;
-}
-
+/* Início branch Ivan----------------------------------*/
 header {
     max-width: 980px;
     position: relative;
@@ -213,3 +105,245 @@ ul li a {
     margin: 0;
     padding: 0;
 }
+/* fim branch Ivan================================================*/
+
+/* Início branch Joao---------------------------------------------*/
+#lojaVitual {
+    width: 980px;
+    margin: 0 auto;
+}
+.lojaToda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lojaTitulo {
+    display: flex;
+    align-items: center;
+}
+.loja-h3 {
+    border-bottom: 2px solid #660000;
+
+    width: 100%;
+    color: #660000;
+    font-family: arial;
+}
+.lojaTitulo img {
+    width: 125px;
+    height: 77px;
+    float: right;
+    padding: 0 5px 20px 0;
+    background-color: #fff;
+}
+
+.loja {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 15px;
+   
+}
+
+.drone1 {
+    width: 300px;
+    height: 355px;
+    border: 1px solid #1b8e99;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.drone2 {
+    width: 300px;
+    height: 355px;
+    border: 1px solid #660000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo1 {
+    font-family: tahoma;
+    font-size: 18px;
+    color: #1b8e99;
+    background-color: #1b8e9933;
+    margin: 3px 4px 3px 3px;
+}
+.titulo2 {
+    font-family: tahoma;
+    font-size: 18px;
+    margin: 3px 4px 3px 3px;
+    color: #660000;
+    background-color: #66000034;
+}
+.conteudo1 {
+    font-family: tahoma;
+    font-size: 13px;
+    color: #1b8e99;
+    text-align: left;
+    padding-inline: 13px;
+    margin-bottom: 15px;
+}
+
+.conteudo2 {
+    font-family: tahoma;
+    font-size: 13px;
+    color: #660000;
+    text-align: left;
+    padding-inline: 13px;
+    margin-bottom: 15px;
+}
+.valor1 {
+    background-color: #1b8e99;
+    font-family: tahoma;
+    text-align: left;
+}
+.valor2 {
+    background-color: #660000;
+    font-family: tahoma;
+    text-align: left;
+}
+.valor1 img {
+    border-radius: 5px;
+    transform: translate(218px, -10px);
+    background-color: #fff;
+    align-items: center;
+    height: 53px;
+    width: 62px;
+    padding: 5px;
+}
+.valor2 img {
+    border-radius: 5px;
+    transform: translate(218px, -10px);
+    background-color: #fff;
+    align-items: center;
+    height: 53px;
+    width: 62px;
+    padding: 5px;
+}
+.custo {
+    color: #fff;
+    transform: translate(0px, 30px);
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: tahoma;
+}
+.parcela {
+    color: #fff;
+    transform: translate(0px, 30px);
+    margin-left: 15px;
+    font-size: 14px;
+    font-family: tahoma;
+    margin-bottom: -22px;
+}
+/* fim branch Joao==================================================*/
+
+/* Início branch Guilherme------------------------------------------*/
+#servicos_txt_logo {
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+#servicos_txt_logo h2{
+    font-size: 18px;
+    font-family: Arial;
+    color: #1c8e99;
+    border-bottom: 2px solid; /*linha sob o texto serviços*/
+    padding-bottom: 10px;
+
+    flex-grow: 100; /*faz o elemento ocupar todo espaço que ele tem disponivel*/
+}
+
+#img_droneB {
+    width: 125px;
+    height: 77px;  /*garante seu espaço, regulando o espaço de serviços*/
+}
+
+
+.container_servicos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_servicos {
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-bottom-width: 8px;
+    font-family: tahoma; /*todos os textos dos cards de serviços usam essa fonte*/
+    text-decoration: none;
+}
+
+.card_servicos h3 {
+    font-size: 17px;
+    margin-top: 0;
+    padding: 0px 10px; 
+}
+
+.card_servicos p {
+    font-size: 13px;
+    padding: 0px 10px; 
+}
+
+.card_vermelho {
+    color: #660000;
+    border-color: #660000;
+}
+
+.card_azul {
+    color: #1b8d99;
+    border-color: #1b8d99;
+}
+/* fim branch Guilherme================================================*/
+
+
+/* Início branch Henrique----------------------------------------------*/  
+/* Estilos para o footer */
+footer {
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+}
+  
+/* Estilos para os parágrafos dentro do footer */
+footer p {
+    font-family: tahoma;
+    color: white;
+    font-size: 14px;
+}
+  
+/* Estilos para o conteúdo dentro do footer */
+.conteudoFooter {
+    display: flex;
+    padding-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 96px;
+    background-color: #1b8e99;
+}
+  
+/* Estilos para as imagens de drones dentro do footer */
+.imagemDrones {
+    display: flex;
+    gap: 185px;
+}
+  
+/* Estilos para a imagem do Prof. Bortola dentro do footer */
+.imagemProf {
+    margin-bottom: 60px;
+    z-index: 1;
+}
+  
+/* Estilos para o detalheFinal dentro do footer */
+.detalheFinal {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 26px;
+    padding-right: 80px;
+    background-color: #660000;
+}
+/* fim branch Henrique=================================================*/
