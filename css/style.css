@@ -53,14 +53,14 @@ ul {
 }
 
 #listaTop {
-    text-align: right;
+    /* text-align: right; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 #listaBottom {
-    text-align: left;
+    /* text-align: left; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -79,6 +79,12 @@ ul li a {
     text-decoration: none;
     transition: color 0.15s, background-color 0.15s, padding 0.15s;
 }
+
+/* .break-text {
+    display: flex;
+    text-align: center;
+    width: 100px;
+}  */
 
 #menuTop ul li a:hover {
     background-color: #92c9ce;
