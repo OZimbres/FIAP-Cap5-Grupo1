@@ -57,6 +57,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    height: 45px;
 }
 
 #listaBottom {
@@ -64,6 +65,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    height: 45px;
 }
 
 ul li {
@@ -80,15 +82,15 @@ ul li a {
     transition: color 0.15s, background-color 0.15s, padding 0.15s;
 }
 
-/* .break-text {
+.break-text {
     display: flex;
     text-align: center;
     width: 100px;
-}  */
+}
 
 #menuTop ul li a:hover {
     background-color: #92c9ce;
-    padding: 20px;
+    padding: 25px;
 }
 
 #menuBottom ul li a:hover {
