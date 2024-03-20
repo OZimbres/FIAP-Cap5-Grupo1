@@ -139,14 +139,13 @@ header {
     margin-bottom: 5px;
     padding-left: 15px;
 }
-.loja-h3 {
+.loja-h2 {
     border-bottom: 2px solid #660000;
     padding-bottom: 7px;
     width: 100%;
     color: #660000;
-    font-family: Tahoma;
-    font-size: 20px;
-    font-weight:normal;
+    font-family: Arial;
+    font-size: 18px;
 }
 .lojaTitulo img {
     width: 125px;
@@ -299,6 +298,7 @@ header {
     font-size: 17px;
     margin-top: 5px;
     padding: 0px 10px;
+    font-weight: normal;
 }
 .card_servicos p {
     font-size: 13px;
